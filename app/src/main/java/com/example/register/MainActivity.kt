@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.btnRegister.setOnClickListener {
             if (!checkForm()){
-                val toast2 = Toast.makeText(this, "You have not filled in enough information", Toast.LENGTH_SHORT)
+                val toast2 = Toast.makeText(this, "Not enough information", Toast.LENGTH_SHORT)
                 toast2.show()
 
             }
